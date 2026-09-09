@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "id": "61d19734-1aeb-4f55-a839-2836fe1c9c2a",
+      "name": "kanshiram",
+      "email": "kanshiramjujjuvarapu571@gmail.com",
+      "passwordHash": "$2a$12$xdBKNePS0dJxjqYksHpMPu9FwxuKyU7.jQFVNSaTUnwfRba9DdBl2",
+      "createdAt": "2026-09-09T16:23:42.791Z"
+    }
+  ]
+}
