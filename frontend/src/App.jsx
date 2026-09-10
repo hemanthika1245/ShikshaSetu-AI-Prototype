@@ -5,7 +5,7 @@ import {
   ShieldCheck, Sparkles, Star, Trophy, UserRound, Volume2, X, Sun, Moon
 } from "lucide-react";
 
-const API = "http://localhost:5000/api";
+const API = ${import.meta.env.VITE_API_URL}/api;
 
 const languages = [
   { id: "santhali", label: "Santhali", native: "ᱥᱟᱱᱛᱟᱲᱤ" },
