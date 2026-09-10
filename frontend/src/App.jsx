@@ -5,7 +5,7 @@ import {
   ShieldCheck, Sparkles, Star, Trophy, UserRound, Volume2, X, Sun, Moon
 } from "lucide-react";
 
-const API = ${import.meta.env.VITE_API_URL}/api;
+const API = "http://localhost:5000/api";
 
 const languages = [
   { id: "santhali", label: "Santhali", native: "ᱥᱟᱱᱛᱟᱲᱤ" },
@@ -416,3 +416,4 @@ function ProgressPage() {
 function Stat({icon,value,label}) { return <div className="card stat"><div className="stat-icon">{icon}</div><div><b>{value}</b><span>{label}</span></div></div> }
 
 export default App;
+
